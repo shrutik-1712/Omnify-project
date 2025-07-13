@@ -10,6 +10,7 @@ A FastAPI-based class booking system with SQLite3 in-memory database.
 ├── models.py         # Pydantic models for request/response
 ├── database.py       # Database connection and setup
 ├── requirements.txt  # Python dependencies
+├── untils.py
 └── README.md        # Project documentation
 ```
 
@@ -119,3 +120,7 @@ Get user's bookings.
 ]
 ```
 - No bookings: `{"message": "No classes taken by user"}`
+
+
+**database design**
+![Logo](omify-project-database-design.jpg)
